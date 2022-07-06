@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+body, .Alarm, .Content{
+    display:flex;
+    align-items: center;
+}
+body{
+    min-height: 100vh;
+    background: #8786AE;
+    justify-content: center;
+}
+.Alarm{
+    width: 440px;
+    background: white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px 30px 38px;
+}
+.Alarm img{
+    max-width: 200px;
+    z-index: 1;
+    animation: img 5s linear 2s infinite;
+}
+.Alarm h1{
+    font-size:58px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.Alarm .Content{
+    width: 100%;
+    justify-content: space-between;
+}
+.Alarm .Content .disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.Content .Values{
+    border-radius: 5px;
+    border: 1px solid antiquewhite;
+    width: calc(100%/3-5px);
+    padding: 0 10px;
+}
+.Values select{
+    outline: none;
+    border: none;
+    height: 53px;
+    width: 100px;
+    font-size: 23px;
+    text-align: center;
+}
+.Alarm button{
+    width:100%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    color:white;
+    margin-top:20px;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 4px;
+    background-color: #8786AE;
+}
+.Alarm button:hover{
+    background-color:#A9A8C7;
+    color:black;
+}
+.Alarm button:active{
+    background-color:#8786AE;
+    color:black;
+}
