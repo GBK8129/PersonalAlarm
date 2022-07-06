@@ -11,7 +11,8 @@ body, .Alarm, .Content{
 }
 body{
     min-height: 100vh;
-    background: #8786AE;
+    background: #8786AE; 
+    background-image: linear-gradient(to bottom right, #8786AE, #E3E3F1);
     justify-content: center;
 }
 .Alarm{
